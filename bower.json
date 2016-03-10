@@ -1,10 +1,7 @@
 {
   "name": "AngularFrameworkFrontend",
   "version": "0.0.1",
-  "homepage": "https://www.wohlig.com",
-  "authors": [
-    "tushar@wohlig.com"
-  ],
+  "homepage": "https://www.onepage.com",
   "description": "Angular Framework Frontend",
   "license": "MIT",
   "ignore": [

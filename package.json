@@ -34,14 +34,4 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WohligTechnology/AngularFrameworkFrontend.git"
-  },
-  "author": "chintan@wohlig.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WohligTechnology/AngularFrameworkFrontend/issues"
-  },
-  "homepage": "https://github.com/WohligTechnology/AngularFrameworkFrontend#readme"
 }

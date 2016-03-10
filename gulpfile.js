@@ -11,25 +11,15 @@ var jsArray = [
     './bower_components/lodash/lodash.min.js',
     './bower_components/fullPage.js/vendors/jquery.easings.min.js',
     './bower_components/fullPage.js/vendors/jquery.slimscroll.min.js',
-    './bower_components/fullpage.js/jquery.fullPage.min.js', 
+    './bower_components/fullpage.js/jquery.fullPage.min.js',
     './js/app.js',
     './js/controllers.js',
     './js/templateservice.js',
     './js/navigation.js',
 
     //please do not change it
-    './w/js/templates.js', 
+    './w/js/templates.js',
 ];
-var replacehostFrom = "http://localhost/demo/";
-var replacehostTo = "http://wohlig.co.in/demo2/";
-
-var ftpdetails = {
-    host: 'wohlig.co.in',
-    user: 'enter your username',
-    pass: 'enter your password',
-    remotePath: "public_html/dreamz"
-};
-
 //Do not change anything below
 //Do not change anything below
 //Do not change anything below
