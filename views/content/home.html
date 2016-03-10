@@ -1,0 +1,452 @@
+<div id="fullpage">
+    <header>
+        <div class="container">
+            <div class="pull-left logo">
+                <a href="#/home"><img src="img/logo.png" alt="" class="img-responsive"></a>
+            </div>
+            <div class="pull-right">
+                <div class="mgt">
+                    <div class="social-icon head-icons">
+                        <ul>
+                            <li><a href="" class="fb" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="" class="twi" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="" class="you" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <div class="hamburger" ng-click="menu('get-out');">
+                            <a href="">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                        </div>
+                        <div class="hideme {{someclass}}">
+                            <div class="exit" ng-click="menu('get-in');"><a href=""><i class="fa fa-times"></i></a></div>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Areas Covered</a></li>
+                                <li><a href="">Services Offered</a></li>
+                                <li><a href="">Investment Banking</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Quote</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">contact us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main fullPage>
+        <section id="home" class="slider nopd slide section">
+            <flex-slider class="carousel" flex-slide="s in slider" animation="slide" animation-loop="true">
+                <li>
+                    <img src="{{s}}" alt="Dreams Banner">
+                </li>
+            </flex-slider>
+            <div class="down-arrow text-center"><a href="#areas"><i class="fa fa-angle-down animated bounce"></i></a></div>
+        </section>
+        <section id="areas" class="slide section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="img-hold-area mg50">
+                            <!--
+                            <div class="img1"><img src="img/area-back.png" alt="" class="img-responsive"></div>
+                            <div class="img2"><img src="img/area-front.png" alt="" class="img-responsive"></div>
+-->
+                            <img src="img/graph.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">Areas Covered</h2>
+                            <ul class="content-menu">
+                                <li><a href="">Equities</a></li>
+                                <li><a href="">Derivatives </a></li>
+                                <li><a href="">Currencies </a></li>
+                                <li><a href="">Commodities  </a></li>
+                                <li><a href="">Debt Market</a></li>
+                                <li><a href="">Mutual Funds</a></li>
+                            </ul>
+                            <button type="button" class="page-btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow text-center"><a href="#services"><i class="fa fa-angle-down animated bounce"></i></a></div>
+            </div>
+        </section>
+        <section id="services" class="serve bggrey slide section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="img-holder mg50"><img src="img/laptop.png" alt="" class="img-responsive"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">Services Covered</h2>
+                            <ul class="content-menu">
+                                <li><a href="">Broking</a></li>
+                                <li><a href="">Advisory</a></li>
+                                <li><a href="">Investment Banking</a></li>
+                            </ul>
+                            <button type="button" class="page-btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow text-center"><a href="#invest"><i class="fa fa-angle-down animated bounce"></i></a></div>
+            </div>
+        </section>
+        <section id="invest" class="investment slide section">
+            <div class="container">
+                <div class="row">
+                    <div class="mg50">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="img-holder"><img src="img/investbank.jpg" alt="" class="img-responsive"></div>
+                                    <div class="img-holder"><img src="img/investbank3.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="img-holder"><img src="img/investbank4.jpg" alt="" class="img-responsive"></div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="img-holder"><img src="img/investbank1.jpg" alt="" class="img-responsive"></div>
+                                        </div>
+                                    </div>
+                                    <div class="img-holder"><img src="img/investbank2.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">Investment Banking</h2>
+                            <ul class="content-menu">
+                                <li>
+                                    <a href="">Company Valuations</a>
+                                </li>
+                                <li>
+                                    <a href="">Fund Raising</a>
+                                </li>
+                                <li>
+                                    <a href="">Private Placements</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="page-btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow text-center"><a href="#about"><i class="fa fa-angle-down animated bounce"></i></a></div>
+            </div>
+        </section>
+        <section id="about" class="abt bggrey slide">
+            <!--
+            <div class="container">
+                <div class="content">
+                    <h2 class="head">About us</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="abt-info text-center">
+                            <p>Dreamz Securities and Broking Services Pvt. Ltd. started its journey by taking a foundation step in Oct 2006 in Business of serving ones need to achieve peace of mind by fulfilling his Future Financial Security by making him invest in Equity Markets, Mutual Fund, Currency Markets and Debt Markets through our systematic investment strategies.</p>
+                            <p>Research is our solid foundation on which our advisory service is based. Majority of our strength and revenue is invested in hiring and developing team of analyst to be part of our advisory division. At present we have a team of 5 Research Analyst which are on continu/ous basis involved in research of various companies and asset class. Our research team focuses on companies that have the capacity to offer sustainable long-term business growth The team attempts to research and advise the client to invest in diversified stocks across capitalization, sectors and industries. Team conducts fundamental research and seek to identify under-rated companies, perhaps our research tend to have big, medium and smaller sized companies. We believe these businesses are often under researched, under-owned, undervalued and has the capacity to offer outstanding returns</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pull-right">
+                    <button type="button" class="page-btn">View More</button>
+                </div>
+            </div>
+-->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="img-holder"><img src="img/logo.png" alt="" class="img-responsive"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">About us</h2>
+                        </div>
+                        <div class="abt-info">
+                            <p>Dreamz Securities and Broking Services Pvt. Ltd. started its journey by taking a foundation step in Oct 2006 in Business of serving ones need to achieve peace of mind by fulfilling his Future Financial Security by making him invest in Equity Markets, Mutual Fund, Currency Markets and Debt Markets through our systematic investment strategies.</p>
+                            <p>Research is our solid foundation on which our advisory service is based. Majority of our strength and revenue is invested in hiring and developing team of analyst to be part of our advisory division. At present we have a team of 5 Research Analyst which are on continu/ous basis involved in research of various companies and asset class. Our research team focuses on companies that have the capacity to offer sustainable long-term business growth The team attempts to research and advise the client to invest in diversified stocks across capitalization, sectors and industries. Team conducts fundamental research and seek to identify under-rated companies, perhaps our research tend to have big, medium and smaller sized companies. We believe these businesses are often under researched, under-owned, undervalued and has the capacity to offer outstanding returns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="down-arrow text-center"><a href="#team"><i class="fa fa-angle-down animated bounce"></i></a></div>
+        </section>
+        <section id="team" class="team-mate slide">
+            <div class="container">
+                <div class="content">
+                    <h2 class="head">Quote</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="team-item">
+                            <div class="team-img-holder"><img src="img/team/team1.jpg" alt="" class=" img-circle img-responsive">
+                                <!--
+                                <div class="img-hover">
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="" class="fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="" class="twi"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="" class="you"><i class="fa fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+-->
+                            </div>
+                            <div class="team-info">
+                                <p class="name">Fik Shunk</p>
+                                <p class="info"><span class="quotes"><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe <span class="quotes"><i class="fa fa-quote-right"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team-item">
+                            <div class="team-img-holder"><img src="img/team/team2.jpg" alt="" class=" img-circle  img-responsive">
+                                <!--
+                                <div class="img-hover">
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="" class="fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="" class="twi"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="" class="you"><i class="fa fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+-->
+                            </div>
+                            <div class="team-info">
+                                <p class="name">Elizabeth Swan</p>
+                                <p class="info"><span class="quotes"><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe <span class="quotes"><i class="fa fa-quote-right"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team-item">
+                            <div class="team-img-holder"><img src="img/team/team3.jpg" alt="" class=" img-circle  img-responsive">
+                                <!--
+                                <div class="img-hover">
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="" class="fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="" class="twi"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="" class="you"><i class="fa fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+-->
+                            </div>
+                            <div class="team-info">
+                                <p class="name">Larrent Lewis</p>
+                                <p class="info"><span class="quotes"><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe <span class="quotes"><i class="fa fa-quote-right"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team-item">
+                            <div class="team-img-holder"><img src="img/team/team4.jpg" alt="" class=" img-circle  img-responsive">
+                                <!--
+                                <div class="img-hover">
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="" class="fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="" class="twi"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="" class="you"><i class="fa fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+-->
+                            </div>
+                            <div class="team-info">
+                                <p class="name">Paul Mitchell</p>
+                                <p class="info"><span class="quotes"><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe<span class="quotes"><i class="fa fa-quote-right"></i></span> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow text-center"><a href="#blog"><i class="fa fa-angle-down animated bounce"></i></a></div>
+            </div>
+        </section>
+        <section id="blog" class="bggrey slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="mg30 blog-home-page">
+                            <div class="row">
+                                <div class="col-md-4 nopd">
+                                    <div class="img-holder"><img src="img/blogger.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                                <div class="col-md-8 nopd">
+                                    <div class="blog-info">
+                                        <h6>21 june</h6>
+                                        <p class="title">Blog tittle goes here</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mg30 blog-home-page">
+                            <div class="row">
+                                <div class="col-md-8 nopd">
+                                    <div class="blog-info">
+                                        <h6>21 june</h6>
+                                        <p class="title">Blog tittle goes here</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 nopd">
+                                    <div class="img-holder"><img src="img/blogger2.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">Blog</h2>
+                            <p class="imp-txt">Upgrade yourself with our latest news</p>
+                            <a href="#/blog">
+                                <button type="button" class="page-btn">View More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow text-center"><a href="#news"><i class="fa fa-angle-down animated bounce"></i></a></div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="news-img">
+                                    <div class="img-holder"><img src="img/news.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                                <div class="news-img">
+                                    <div class="img-holder"><img src="img/news1.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="news-img">
+                                    <div class="img-holder"><img src="img/news2.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                                <div class="news-img">
+                                    <div class="img-holder"><img src="img/news3.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">news</h2>
+                            <p class="imp-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe </p>
+                            <button type="button" class="page-btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="down-arrow text-center"><a href="#rating"><i class="fa fa-angle-down animated bounce"></i></a></div>
+            </div>
+        </section>
+        <section id="rating" class="bggrey slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="work mg50">
+                            <ul>
+                                <li>
+                                    <p><span class="wd25">To</span><span class="wd50">From</span><span class="wd25">Growth Rate</span></p>
+
+                                    <progress class="progress rate">
+                                        <bar class="to" value="25"></bar>
+                                        <bar class="from" value="50"></bar>
+                                        <bar class="growth" value="25"></bar>
+                                    </progress>
+                                    <p class="rate-info"><span class="ft-icon"><i class="fa fa-google"></i></span>Google</p>
+                                </li>
+                                <li>
+                                    <p><span class="wd15">To</span><span class="wd45">From</span><span class="wd40">Growth Rate</span></p>
+                                    <progress class="progress rate">
+                                        <bar class="to" value="15"></bar>
+                                        <bar class="from" value="45"></bar>
+                                        <bar class="growth" value="40"></bar>
+                                    </progress>
+                                    <p class="rate-info wd85"><span class="ft-icon"><i class="fa fa-apple"></i></span>Apple</p>
+                                </li>
+                                <li>
+                                    <p><span class="wd20">To</span><span class="wd50">From</span><span class="wd30">Growth Rate</span></p>
+                                    <progress class="progress rate">
+                                        <bar class="to" value="20"></bar>
+                                        <bar class="from" value="50"></bar>
+                                        <bar class="growth" value="30"></bar>
+                                    </progress>
+                                    <p class="rate-info"><span class="ft-icon"><i class="fa fa-android"></i></span>Android</p>
+                                </li>
+                                <li>
+                                    <p><span class="wd50">To</span><span class="wd25">From</span><span class="wd25">Growth Rate</span></p>
+                                    <progress class="progress rate">
+                                        <bar class="to" value="50"></bar>
+                                        <bar class="from" value="25"></bar>
+                                        <bar class="growth" value="25"></bar>
+                                    </progress>
+                                    <p class="rate-info"><span class="ft-icon"><i class="fa fa-windows"></i></span>Windows</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">Work</h2>
+                            <p class="imp-txt">best of our protfolio</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quia tempore, rem quis iste saepe </p>
+                            <button type="button" class="page-btn">View More</button>
+                        </div>
+                    </div>
+                </div </div>
+        </section>
+        <section id="contact slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="cont mg50">
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937586!2d2.2922926156743895!3d48.858370079287475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel+Tower!5e0!3m2!1sen!2sin!4v1448019075992" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Name *">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Email *">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" placeholder="Write your text"> </textarea>
+                                    </div>
+                                </div>
+                                <button type="button" class="page-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="content">
+                            <h2 class="head">contact us</h2>
+                            <p class="imp-txt">and send your queries or ask for quote</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, assumenda perspiciatis, adipisci impedit magnam vitae eligendi in explicabo at.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    </div>
